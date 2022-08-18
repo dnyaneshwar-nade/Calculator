@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.css">
+    
+    <title>Calculator</title>
+</head>
+<body class="body">
+    <div class="heading">
+        <h1>
+            Calculator
+        </h1>
+    </div>
+    <div>
+        <div class="displaybox">
+            <div class="dBox">
+                <h3 class="displayHead" id="displayId" style="color: rgb(66, 23, 23); margin-top: 10px;"></h3>
+            </div>
+        </div>
+        <div class="inputbuttons">
+            <div>
+                <div>
+                    <button class="clearButton" type="button" onclick="onClear()">Clear</button>
+                </div>
+            </div>
+            <div class="numberbuttons">
+                <button class="numButton" type="button" onclick="addNum(1)">1</button>
+                <button class="numButton" type="button" onclick="addNum(2)">2</button>
+                <button class="numButton" type="button" onclick="addNum(3)">3</button>  
+                <button class="operationButton" type="button" onclick="operatorSelect('+')">+</button>    
+            </div>
+            <div class="numberbuttons">
+                <button class="numButton" type="button" onclick="addNum(4)">4</button>
+                <button class="numButton" type="button" onclick="addNum(5)">5</button>
+                <button class="numButton" type="button" onclick="addNum(6)">6</button>
+                <button class="operationButton" type="button" onclick="operatorSelect('-')">-</button>
+            </div>
+            <div class="numberbuttons">
+                <button class="numButton" type="button" onclick="addNum(7)">7</button>
+                <button class="numButton" type="button" onclick="addNum(8)">8</button>
+                <button class="numButton" type="button" onclick="addNum(9)">9</button>
+                <button class="operationButton" type="button" onclick="operatorSelect('*')">*</button>
+            </div>
+            <div class="numberbuttons"> 
+                <button class="operationButton" type="button" onclick="onBack()">←</button>
+                <button class="numButton" type="button" onclick="addNum(0)">0</button>
+                <button class="operationButton" type="button" onclick="onEqual()">=</button>
+                <button class="operationButton" type="button" onclick="operatorSelect('/')">/</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/index.js"></script>
+</body>
+</html>

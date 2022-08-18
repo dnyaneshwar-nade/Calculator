@@ -1,0 +1,62 @@
+.body{
+    background-color:lavender;
+}
+
+.displaybox{
+    width: 50%;
+    height: 40px;
+    margin-left: 25%;
+    margin-top: 2.5%;
+    background-color: wheat;
+    border: 0px;
+    border-radius: 10px;
+    text-align: right;
+}
+
+.inputbuttons{
+    margin-top: 1%;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.numButton{
+    width: 23%;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    background-color: gray;
+    color:white;
+    margin: 0.65%;
+}
+
+.operationButton{
+    width: 23%;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    background-color: gray;
+    color:white;
+    margin: 0.65%;
+}
+
+.clearButton{
+    width: 100%;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    background-color: gray;
+    color:white;
+    margin-bottom: 1%;
+}
+
+.heading{
+    margin-left: 45%;
+    color: darkolivegreen;
+}
+
+.displayHead{
+    width: 98%;
+    height: 90%;
+    border-radius: 10px;
+}
+
